@@ -305,7 +305,7 @@ public class NotificationMgr {
             } else {
                 resId = android.R.drawable.stat_notify_voicemail;
             }
-            if (howSimSlotIcon() {
+            if (showSimSlotIcon()) {
                 resId = mwiIcon[phoneId];
             }
 
